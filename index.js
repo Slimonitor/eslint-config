@@ -20,8 +20,9 @@ module.exports = {
     ] : [],
     "rules": {
         "indent": [
-            "error",
-            4
+            "warn", // todo: change to error in production phase
+            4,
+            {SwitchCase: 1}
         ],
         "linebreak-style": [
             "error",
