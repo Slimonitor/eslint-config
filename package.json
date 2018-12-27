@@ -1,0 +1,23 @@
+{
+  "name": "@slimonitor/eslint-config",
+  "version": "0.0.1",
+  "description": "common eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Robin Tail, Eiren Rain",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Slimonitor/eslint-config.git"
+  },
+  "peerDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
