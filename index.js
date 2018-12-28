@@ -35,6 +35,9 @@ module.exports = {
         "semi": [
             "error",
             "always"
+        ],
+        "no-unused-vars": [
+            "warn" // todo: should be error in production phase
         ]
     }
 };
